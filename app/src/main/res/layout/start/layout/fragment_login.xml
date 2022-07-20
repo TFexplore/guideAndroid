@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".start.ui.LoginFragment">
+    tools:context=".pages.start.ui.LoginFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -87,9 +87,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:ems="10"
-            android:hint="请输入手机号"
+            android:hint="请输入邮箱或手机号"
             android:inputType="phone"
             android:maxLength="36"
+            android:minHeight="48dp"
             app:layout_constraintEnd_toStartOf="@+id/guideline5"
             app:layout_constraintHorizontal_bias="0.656"
             app:layout_constraintStart_toStartOf="@+id/guideline4"
@@ -104,6 +105,7 @@
             android:hint="请输入密码"
             android:inputType="textPassword"
             android:maxLength="20"
+            android:minHeight="48dp"
             app:layout_constraintEnd_toStartOf="@+id/guideline5"
             app:layout_constraintStart_toStartOf="@+id/user"
             app:layout_constraintTop_toBottomOf="@+id/user" />

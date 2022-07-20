@@ -1,4 +1,4 @@
-package com.example.guide;
+package com.example.guide.pages.master.activity;
 
 import android.app.Activity;
 import android.os.Build;
@@ -11,10 +11,13 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
+import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import com.example.guide.R;
 import com.example.guide.common.Utils;
 import com.example.guide.databinding.ActivityMainBinding;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -28,12 +31,21 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        setWindowStatusBarColor(this,R.color.bar_main);
-        navController = Navigation.findNavController(this, R.id.nav_master);
-        NavigationUI.setupActionBarWithNavController(this, navController);
-
+        setWindowStatusBarColor(this, R.color.bar_main);
+        initNav();
         Utils.init(getApplication());
+    }
+    void initNav(){
 
+        BottomNavigationView navView = findViewById(R.id.nav_view);
+        // Passing each menu ID as a set of Ids because each
+        // menu should be considered as top level destinations.
+        AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
+                R.id.fisrstFragment, R.id.secondFragment, R.id.thirdFragment)
+                .build();
+        NavController navController = Navigation.findNavController(this, R.id.nav_host);
+        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
+        NavigationUI.setupWithNavController(navView, navController);
     }
 
 

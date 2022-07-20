@@ -1,4 +1,4 @@
-package com.example.guide.easyhttp.model;
+package com.example.guide.http.model;
 
 import android.app.Application;
 import android.content.Context;
@@ -13,8 +13,8 @@ import androidx.annotation.Nullable;
 
 import com.example.guide.R;
 import com.example.guide.common.GsonFactory;
-import com.example.guide.easyhttp.exception.ResultException;
-import com.example.guide.easyhttp.exception.TokenException;
+import com.example.guide.http.exception.ResultException;
+import com.example.guide.http.exception.TokenException;
 import com.google.gson.JsonSyntaxException;
 import com.hjq.http.EasyLog;
 import com.hjq.http.config.IRequestHandler;

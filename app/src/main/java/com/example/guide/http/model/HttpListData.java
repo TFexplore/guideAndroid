@@ -1,4 +1,4 @@
-package com.example.guide.easyhttp.model;
+package com.example.guide.http.model;
 
 import java.util.List;
 

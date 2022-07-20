@@ -1,4 +1,4 @@
-package com.example.guide.easyhttp.exception;
+package com.example.guide.http.exception;
 
 public class TokenException extends Exception{
 

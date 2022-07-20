@@ -12,16 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Guide">
         <activity
-            android:name=".start.activity.LoginActivity"
+            android:name=".pages.start.activity.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".pages.master.activity.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Main" >
         </activity>
         <activity
-            android:name=".start.activity.SplashActivity"
+            android:name=".pages.start.activity.SplashActivity"
             android:exported="true"
             android:theme="@style/ThemeSplash" >
             <intent-filter>

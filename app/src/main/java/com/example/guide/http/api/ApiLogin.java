@@ -1,30 +1,26 @@
-package com.example.guide.easyhttp.api;
+package com.example.guide.http.api;
 
 import androidx.annotation.NonNull;
 
-
-import com.example.guide.entity.Sign;
 import com.example.guide.entity.User;
 import com.hjq.http.annotation.HttpIgnore;
 import com.hjq.http.annotation.Query;
 import com.hjq.http.config.IRequestApi;
 
-public class ApiRegist implements IRequestApi {
+
+public class ApiLogin implements IRequestApi {
 
     @HttpIgnore
-    final String uri="user/register";
+    final String uri="sign/login";
 
     @Query
-    String upassword;
+    private String Password;
     @Query
-    String utel;
-    @Query
-    String uname;
+    private String Tel;
 
-    public ApiRegist(String upassword, String utel, String uname) {
-        this.upassword = upassword;
-        this.utel = utel;
-        this.uname = uname;
+    public ApiLogin(String password, String tel) {
+        Password = password;
+        Tel = tel;
     }
 
     @NonNull
@@ -32,12 +28,11 @@ public class ApiRegist implements IRequestApi {
     public String getApi() {
         return uri;
     }
-
     public final static class Bean {
         private User user;
-        private Sign token;
+        private String token;
 
-        public Sign getToken() {
+        public String getToken() {
             return token;
         }
 
@@ -45,5 +40,4 @@ public class ApiRegist implements IRequestApi {
             return user;
         }
     }
-
 }

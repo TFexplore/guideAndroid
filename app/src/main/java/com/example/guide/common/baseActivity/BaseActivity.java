@@ -12,8 +12,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
-import com.example.guide.easyhttp.model.HttpServer;
-import com.example.guide.easyhttp.model.RequestHandler;
+import com.example.guide.http.model.HttpServer;
+import com.example.guide.http.model.RequestHandler;
 
 import com.hjq.http.EasyConfig;
 import com.hjq.toast.ToastUtils;

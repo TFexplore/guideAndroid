@@ -9,8 +9,15 @@
         <entry key="..\:/AndroidProject/guide/app/src/main/res/layout/activity_splash.xml" value="0.2006340579710145" />
         <entry key="..\:/AndroidProject/guide/app/src/main/res/layout/fragment_login.xml" value="0.2006340579710145" />
         <entry key="..\:/AndroidProject/guide/app/src/main/res/layout/fragment_register.xml" value="0.2006340579710145" />
+        <entry key="..\:/AndroidProject/guide/app/src/main/res/layout/master/layout/activity_main.xml" value="0.2006340579710145" />
+        <entry key="..\:/AndroidProject/guide/app/src/main/res/layout/master/layout/fisrst_fragment.xml" value="0.2006340579710145" />
+        <entry key="..\:/AndroidProject/guide/app/src/main/res/layout/master/layout/second_fragment.xml" value="0.28833629366489044" />
+        <entry key="..\:/AndroidProject/guide/app/src/main/res/layout/master/layout/third_fragment.xml" value="0.2006340579710145" />
+        <entry key="..\:/AndroidProject/guide/app/src/main/res/layout/start/layout/activity_login.xml" value="0.2006340579710145" />
         <entry key="..\:/AndroidProject/guide/app/src/main/res/layout/start/layout/activity_splash.xml" value="0.2006340579710145" />
+        <entry key="..\:/AndroidProject/guide/app/src/main/res/layout/start/layout/fragment_login.xml" value="0.176" />
         <entry key="..\:/AndroidProject/guide/app/src/main/res/layout/start/layout/fragment_register.xml" value="0.2006340579710145" />
+        <entry key="..\:/AndroidProject/guide/app/src/main/res/menu/master.xml" value="0.25364583333333335" />
       </map>
     </option>
   </component>

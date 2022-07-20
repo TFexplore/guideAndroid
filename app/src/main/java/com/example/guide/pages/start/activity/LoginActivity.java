@@ -1,4 +1,4 @@
-package com.example.guide.start.activity;
+package com.example.guide.pages.start.activity;
 
 import android.os.Bundle;
 import android.view.View;
@@ -8,10 +8,11 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.NavigationUI;
 
 
-import com.example.guide.MainActivity;
+import com.example.guide.pages.master.activity.MainActivity;
 import com.example.guide.R;
 import com.example.guide.common.baseActivity.BaseActivity;
 import com.example.guide.databinding.ActivityLoginBinding;
+
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package com.example.guide.easyhttp.model;
+package com.example.guide.http.model;
 
 /**
  *    author : Android 轮子哥

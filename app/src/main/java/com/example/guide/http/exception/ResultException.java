@@ -1,7 +1,7 @@
-package com.example.guide.easyhttp.exception;
+package com.example.guide.http.exception;
 
 
-import com.example.guide.easyhttp.model.HttpData;
+import com.example.guide.http.model.HttpData;
 
 public class ResultException extends Exception{
 

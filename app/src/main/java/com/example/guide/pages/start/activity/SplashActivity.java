@@ -1,4 +1,4 @@
-package com.example.guide.start.activity;
+package com.example.guide.pages.start.activity;
 
 
 import android.content.Intent;
